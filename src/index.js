@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Header from './common/heder/Header';
 
 
 ReactDOM.render( <
-    React.StrictMode >
-    <
-    div > < /div> < /
-    React.StrictMode > ,
+    Header / > ,
     document.getElementById('root')
 );
